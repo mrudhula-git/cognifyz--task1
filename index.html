@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Task 1 Webpage</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Task 2 - JavaScript</title>
+    <script src="script.js"></script>
 </head>
 <body>
 
-    <!-- Navigation Menu -->
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
+    <!-- Button Color Change -->
+    <button id="colorBtn">Click Me</button>
 
-    <!-- Simple Webpage Content -->
-    <h1>Welcome to My Webpage</h1>
-    <p>This is a simple paragraph created for Task 1 of Cognifyz Internship.</p>
-    <img src="https://via.placeholder.com/300" alt="Sample Image">
+    <br><br>
 
-    <!-- Basic Form -->
-    <form>
-        <input type="text" placeholder="Enter your name">
-        <button type="submit">Submit</button>
-    </form>
+    <!-- Greeting Alert -->
+    <button onclick="showGreeting()">Show Greeting</button>
+
+    <br><br>
+
+    <!-- Calculator -->
+    <input id="num1" type="number" placeholder="Enter number 1">
+    <input id="num2" type="number" placeholder="Enter number 2">
+    <button onclick="calculate()">Add</button>
+    <p id="result"></p>
 
 </body>
 </html>
